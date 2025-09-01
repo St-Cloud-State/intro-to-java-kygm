@@ -1,14 +1,11 @@
 package Hw1Q3;
 
 import java.util.Arrays;
-import java.util.LinkedList;
 import java.util.List;
 import java.io.*;
 
 class MyMain {
     public static void main(String[] args) {
-        LinkedList<Person> people = new LinkedList<Person>();
-
         try {
             FileInputStream fileInputStream = new FileInputStream("./Hw1Q3/people.txt");
 

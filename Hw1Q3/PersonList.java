@@ -1,3 +1,5 @@
+package Hw1Q3;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
@@ -7,6 +9,11 @@ import java.io.PrintWriter;
 import java.util.LinkedList;
 
 public class PersonList {
+
+    public PersonList() {
+        People = new LinkedList<Person>();
+    }
+
     public LinkedList<Person> People;
 
     public void store(InputStream inputStream) throws IOException {

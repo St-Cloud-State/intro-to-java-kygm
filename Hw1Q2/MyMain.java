@@ -9,7 +9,7 @@ class MyMain {
         LinkedList<Person> people = new LinkedList<Person>();
 
         try {
-            FileInputStream fileInputStream = new FileInputStream("./people.txt");
+            FileInputStream fileInputStream = new FileInputStream("./Hw1Q2/people.txt");
 
             System.out.println("Processing people... ");
 
@@ -19,8 +19,9 @@ class MyMain {
             display(System.out, people);
 
             List<String> idsToSearch = Arrays.asList("1", "2", "63", "123");
-
             for (String id : idsToSearch) {
+                System.out.println("Searching for person id: " + id + "...");
+
                 int searchResultIndex = find(id, people);
                 System.out.println("Index of person id " + id + ": " + String.valueOf(searchResultIndex));
             }

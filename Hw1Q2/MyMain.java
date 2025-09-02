@@ -9,7 +9,7 @@ class MyMain {
         LinkedList<Person> people = new LinkedList<Person>();
 
         try {
-            FileInputStream fileInputStream = new FileInputStream("./Hw1Q2/people.txt");
+            FileInputStream fileInputStream = new FileInputStream("./people.txt");
 
             System.out.println("Processing people... ");
 

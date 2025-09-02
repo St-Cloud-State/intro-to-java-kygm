@@ -1,0 +1,24 @@
+Script started on 2025-09-02 18:16:35+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="219" LINES="16"]
+[?2004h[0;32m@kygm [0m➜ [1;34m/workspaces/intro-to-java-kygm/Hw1Q3 [0;36m([1;31mmain[0;36m) [0m$ script[Kjavac *.java
+[?2004l[?2004h[0;32m@kygm [0m➜ [1;34m/workspaces/intro-to-java-kygm/Hw1Q3 [0;36m([1;31mmain[0;36m) [0m$ java MyMain
+[?2004lProcessing people... 
+Processed
+
+abc def 1
+
+test person 2
+
+benji dog 5
+
+jane doe 63
+
+john doe 24
+
+Index of person id 1: 0
+Index of person id 2: 1
+Index of person id 63: 3
+Index of person id 123: -1
+[?2004h[0;32m@kygm [0m➜ [1;34m/workspaces/intro-to-java-kygm/Hw1Q3 [0;36m([1;31mmain[0;36m) [0m$ e[Kexit
+[?2004lexit
+
+Script done on 2025-09-02 18:16:50+00:00 [COMMAND_EXIT_CODE="0"]

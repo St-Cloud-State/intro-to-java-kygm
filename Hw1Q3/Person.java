@@ -1,4 +1,3 @@
-package Hw1Q3;
 
 public class Person {
     public Person(String firstName, String lastname, String id) {

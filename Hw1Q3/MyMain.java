@@ -1,4 +1,3 @@
-package Hw1Q3;
 
 import java.util.Arrays;
 import java.util.List;
@@ -7,7 +6,7 @@ import java.io.*;
 class MyMain {
     public static void main(String[] args) {
         try {
-            FileInputStream fileInputStream = new FileInputStream("./Hw1Q3/people.txt");
+            FileInputStream fileInputStream = new FileInputStream("./people.txt");
 
             System.out.println("Processing people... ");
 
